@@ -14,20 +14,21 @@ public class Hora {
 		
 		Scanner teclado = new Scanner (System.in); 
 		
-		float segundosDesdeMedianoche, horaActual, medianocheEnSegundos = 24 * 60 * 60;
-		//Declaramos la variable pi para no tener que cambiarla cada vez abajo. Si pones "final" al principio de la declaración, el valor de la variable nunca se va a poder modificar, es como el "const" en javascript 
+		double segundosDesdeMedianoche, horaActual, minutoActual, segundoActual;
 		
 		System.out.println("¿Cuántos segundos han pasado desde medianoche?"); //sysout (CTRL + BARRA ESPACIADORA + INTRO para crear este comoando)
 		
 		segundosDesdeMedianoche = teclado.nextFloat();
 		
-		horaActual = 24-((medianocheEnSegundos - segundosDesdeMedianoche) / 60 / 60);
+		horaActual =Math.floor(segundosDesdeMedianoche/60/60);
+		minutoActual = Math.floor((segundosDesdeMedianoche/60) - (60*horaActual)); 
+		segundoActual = Math.floor(segundosDesdeMedianoche-(60*60*horaActual)-(60*minutoActual));
 		
 		
 		if (horaActual < 24)
 		{
 		//Imprimimos en pantalla con salto de línea
-		System.out.printf("Ahora mismo son las %.4f", horaActual);
+		System.out.printf("Ahora mismo son las %.0f:%.0f:%.0f", horaActual, minutoActual, segundoActual);
 		} else {
 			//Imprimimos en pantalla con salto de línea
 			System.out.printf("No es posible que hayan pasado tantos segundos desde esta medianoche");

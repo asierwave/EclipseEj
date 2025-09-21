@@ -13,7 +13,7 @@ public class MediaDesviacion {
 		
 		Scanner teclado = new Scanner (System.in); 
 		
-		float numero1, numero2, numero3, numero4, mediaAritmetica, DesviacionTipica;
+		double numero1, numero2, numero3, numero4, mediaAritmetica, DesviacionTipica;
 		//Declaramos la variable pi para no tener que cambiarla cada vez abajo. Si pones "final" al principio de la declaración, el valor de la variable nunca se va a poder modificar, es como el "const" en javascript 
 		
 		System.out.println("Dame el primer número?");
@@ -33,10 +33,11 @@ public class MediaDesviacion {
 		numero4 = teclado.nextFloat();
 		
 		mediaAritmetica = (numero1 + numero2 + numero3 + numero4)/4;
+		DesviacionTipica = Math.sqrt(Math.pow((numero1 - mediaAritmetica),2) + Math.pow((numero2 - mediaAritmetica),2) + Math.pow((numero3 - mediaAritmetica),2)+ Math.pow((numero4 - mediaAritmetica),2) / 4);
 		
 		
 		
-		System.out.printf("La media aritmétic es %.0f", mediaAritmetica);
+		System.out.printf("La media aritmétic es %.1f y la desviación típica %.2f", mediaAritmetica, DesviacionTipica);
 	
 	
 		
