@@ -22,11 +22,23 @@ public class Main {
 		anoNacimiento = teclado.nextInt();
 		
 		
-		//Lo he hecho con GPT porque no tenía ni idea
-		System.out.printf("Tu fecha de nacimiento es el %02d/%02d/%d\n", diaNacimiento, mesNacimiento, anoNacimiento);
+		//Forma 2 de capturar información de una tacada
+		System.out.println("Dime tu dia mes y año de nacimiento para recogerlo de un tirón:");
+		diaNacimiento = teclado.nextInt();
+		mesNacimiento = teclado.nextInt();
+		anoNacimiento = teclado.nextInt();
 
 		
+		//Todo lo que no guardemos se quede almacenado en buffer hasta que finaliza el programa
 
+		//Imprimir en con salto de línea
+		System.out.println("Tu fecha de nacmiento es el (v1) "+diaNacimiento+"/"+mesNacimiento+"/"+anoNacimiento);
+		
+		
+		//Imprimir con mas versatilidad (con formato), no salta al final de línea porque no es printf, se necesitaría un simbolo de salto de línea: \n, \\n (salta dos líneas), \r también válido.
+		System.out.printf("Tu fecha de nacimiento es el %02d/%02d/%d\n (v2)", diaNacimiento, mesNacimiento, anoNacimiento);
+
+		teclado.close();
 	}
 
 }
