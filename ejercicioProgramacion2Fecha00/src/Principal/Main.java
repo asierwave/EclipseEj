@@ -32,7 +32,7 @@ public class Main {
 		//Todo lo que no guardemos se quede almacenado en buffer hasta que finaliza el programa
 
 		//Imprimir en con salto de línea
-		System.out.println("Tu fecha de nacmiento es el (v1) "+diaNacimiento+"/"+mesNacimiento+"/"+anoNacimiento);
+		System.out.println("Tu fecha de nacimiento es el (v1) "+diaNacimiento+"/"+mesNacimiento+"/"+anoNacimiento);
 		
 		
 		//Imprimir con mas versatilidad (con formato), no salta al final de línea porque no es printf, se necesitaría un simbolo de salto de línea: \n, \\n (salta dos líneas), \r también válido.
