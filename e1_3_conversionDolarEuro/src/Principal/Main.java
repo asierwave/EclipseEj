@@ -1,4 +1,4 @@
-package EjercicioDomingoConversionMonetaria;
+package Principal;
 import java.util.Scanner;
 
 //Abrimos la clase Main

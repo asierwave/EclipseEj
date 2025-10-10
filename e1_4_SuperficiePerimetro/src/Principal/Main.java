@@ -1,11 +1,11 @@
-package EjercicioDomingoCalculoPerimetroAreaVolumen;
+package Principal;
 
 //importamos el Scanner de la librería java.util
 
 import java.util.Scanner;
 
 //Abrimos la clase Main
-public class Superficie {
+public class Main {
 
 	public static void main(String[] args) {
 		

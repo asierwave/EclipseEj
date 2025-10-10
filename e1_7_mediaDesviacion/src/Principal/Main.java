@@ -1,10 +1,10 @@
-package EjercicioDomingoMediaDesviacion;
+package Principal;
 
 
 import java.util.Scanner;
 
 //Abrimos la clase Main
-public class MediaDesviacion {
+public class Main {
 
 	public static void main(String[] args) {
 		
