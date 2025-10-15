@@ -7,14 +7,11 @@ class cuentaCorriente {
 	
 	private String dni; 
 	private String nombre; 
-	public double saldo = 0;
-	public String mensaje;
+	private double saldo = 0;
+	private String mensaje;
 	public double dinero;
 	
 	Scanner teclado = new Scanner (System.in);
-
-
-
 
 
 
@@ -30,7 +27,6 @@ class cuentaCorriente {
 		System.out.println ("Bienvenido a tu cuenta, "+nombre+" "+dni+", este es tu saldo actual: "+(int)saldo);
 		this.sacarDinero();
 
-		
 	}
 
 	
@@ -42,7 +38,7 @@ class cuentaCorriente {
 		
 	System.out.println("¿Cuánto dinero quieres ingresar?");
 	dinero = teclado.nextDouble(); //Hace salto de línea y no queda nada en el buffer del teclado
-	saldo = saldo + dinero;
+	saldo += dinero;
 		
 		
 	mensaje = "Has ingresado " +dinero+ " y tu saldo actual es de " +saldo;
@@ -102,33 +98,6 @@ class cuentaCorriente {
 
 	}
 	
-
- //public boolean sacarDinero(int dineroParaSacar) {
-   //    boolean exito = this.saldo >= dineroParaSacar;
-     //  if (exito) {
-       //     this.saldo -= dineroParaSacar;
-        //}
-        //return exito;
-    //}
-
-
-	
-
-	//private Object sacarDinero() {
-
-		//int dineroParaSacar;
-		//boolean sacarDinero (int dineroParaSacar) {
-			//boolean exito;
-			
-			
-			//exito = this.saldo >= dineroParaSacar;
-			//this.saldo = exito ? this.saldo - dineroParaSacar: this.saldo;
-			
-		//return exito;
-			
-		//}
-	//}
-		
 		
 
 		public String toString() {
