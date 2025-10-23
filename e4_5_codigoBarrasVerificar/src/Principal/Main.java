@@ -14,7 +14,7 @@ public class Main {
 		codigoBarras= teclado.nextLine();
 		
 		int numControlIntroducido=codigoBarras.charAt(7)-'0';
-		int num7=codigoBarras.charAt(6)-'0'; //Si le restas el codigo del 0 te sale el dígito correctamente, si no no te sale el valor, porque lo saca como carácter
+		int num7=codigoBarras.charAt(6)-'0'; //Si le restas el codigo del 0 te sale el dígito correctamente, si no no te sale el valor, porque lo saca como código UNICODE del dígito de control
 		int num6=codigoBarras.charAt(5)-'0';
 		int num5=codigoBarras.charAt(4)-'0';
 		int num4=codigoBarras.charAt(3)-'0';
