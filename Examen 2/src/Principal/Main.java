@@ -17,10 +17,11 @@ public class Main {
 		 
 		 
 		 v1.calcularImporte();
+		 v2.calcularImporte();
 	
 		 
-		 System.out.println(v2.imprimir());
-		 v2.imprimirv2();
+		// System.out.println(v2.imprimir());
+		// v2.imprimirv2();
 		 
 		
 //FUNCIONA PARA EL NORMAL
