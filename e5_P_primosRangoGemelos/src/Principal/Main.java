@@ -1,10 +1,20 @@
 package Principal;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-			for (int i=2; i<=150; i++)
+		Scanner teclado = new Scanner (System.in);
+		
+		int numeroReferencia;
+		
+		System.out.println("Dame un número positivo y te doy los primos hasta él: ");
+		numeroReferencia = teclado.nextInt();
+		
+		
+			for (int i=2; i<=numeroReferencia; i++)
 				if (esPrimo(i))
 					System.out.println(i+ " es primo");
 		}
