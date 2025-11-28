@@ -32,7 +32,7 @@ public class Main {
 
 			}
 			
-			System.out.println("El numero "+numeroPositivo+ " mas sus 100 siguientes es igual a: "+sumaNumeros);
+			System.out.println("El numero "+numeroPositivo+ ", la suma de sus 100 siguientes es igual a: "+sumaNumeros);
 
 
 		}
