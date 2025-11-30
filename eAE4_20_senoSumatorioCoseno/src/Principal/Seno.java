@@ -17,7 +17,7 @@ public class Seno {
 		//cuando vamos a multiplicar en un bucle inicializamos a 1, cuando sumamos, a 0
 		int f=1; //tiene que ser 1 para que no se multiplique por 0 siempre y por tanto de 0
 		
-		for (int i=1; i<=n; i++) 
+		for (int i=1; i<=n; i++) //Breakpoint para depuración
 			f=f*i;
 		
 			return f;
@@ -29,7 +29,7 @@ public class Seno {
 		double seno = 0;
 		
 
-		for (int i=0; i<nTerminos; i++) 
+		for (int i=0; i<nTerminos; i++) //Breakpoint para depuración
 			seno = seno + (Math.pow(-1, i) * Math.pow(angulo, 2*i+1))/ factorial(2*i +1);
 		
 		return seno;
@@ -46,7 +46,7 @@ public class Seno {
 		
 
 		for (int i=0; i<nTerminos; i++) 
-			coseno = coseno + (Math.pow(-1, i) * Math.pow(this.angulo, 2*i+1))/ factorial(2*i +1);
+			coseno = coseno + (Math.pow(-1, i) * Math.pow(angulo, 2*i+1))/ factorial(2*i +1);
 		
 		return coseno;
 		

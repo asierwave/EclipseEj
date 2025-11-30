@@ -2,36 +2,133 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045344828_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045344846_1" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764173967494_4" label="PruebaExamenRA3" name="PruebaExamenRA3">
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764173967494_4" label="ePruebaExamen_RA" name="ePruebaExamen_RA">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e1_sumaNumerosInvertidos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e2_numeroPerfectos" type="4"/>
-<item elementID="=PruebaExamenRA3_e3_ menuAreaPerimetro" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e3_ menuAreaPerimetro" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764264682543_5" label="eAE4_Autoevaluacion4" name="eAE4_Autoevaluacion4">
-<item elementID="=eAE4_X2_decimalToBinarioCustom" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_X2_decimalToBinarioCustom" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_13_maquinaTragaperras" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_12_menuParaCambiarRectangulo" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_20_senoSumatorioCoseno" type="4"/>
+<item elementID="=eAE4_20_senoSumatorioCoseno" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_2_piedraPapelTijera" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_11_averiguarDigitosAfortunados" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_19_construyeGato" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_P_primosRangoGemelosREGULAR" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_8_ partirNumero" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_3b_enteroRobustoConEstadosDetectarElPrimerEnteroDeUnaFrase" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_M_michaelDibujaEquisEnCuadrado" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_F_factoriales" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_10_desplazaUnLugarAtrasCifraNum" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_4_serieNumerosSumaInferior1000" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_17_pidoNumerosContadorError" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_7_dibujarRelojArenaAsteriscos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE_15_dosExcepcionesComtempladas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_18_crearExcepcionesCustom" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_6_organizarImparesPares" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_3_suma100numeroSiguientesNumeroEnteroPositivo" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_2_excepciones2" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_M_Menus" type="4"/>
-<item elementID="=eAE4_18" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_1_presupuestoTartas" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_1_excepciones" type="4"/>
-<item elementID="=eAE4_9_maximoMinimoEnterosIntroducidos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=eAE4_X_especialBinario" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_16_traspasoErroresMain" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_9_maximoMinimoEnterosIntroducidos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_14_excepcionParaCadena" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_X_especialBinario" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_5_piramideConNumeroIntroducido" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_3_enteroRobustoDetectarElPrimerEnteroDeUnaCadena" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764431980455_7" label="eExam_RA" name="eExam_RA">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA2_corregido" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432728115_10" label="e3_Ternarios" name="e3_Ternarios">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_3_DeterminarSignoNumero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_e8_MañanaTardeNoche" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_2_ParImpar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_1_Mayor2Num" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_4_ValorAbsoluto" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_6_esPositivoNegativoCero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_7_Unidades10Descuento" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_5_Bisiesto" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_0_EjemploTernario" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432762169_11" label="e1_IntroduccionJava" name="e1_IntroduccionJava">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_8_CilindroVolumenArea" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_9_Hipotenusa" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_10_Calificaciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_6_horaActualCalcular" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_4_SuperficiePerimetro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_0_EjemploInicialCircunferencia" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_3_conversionDolarEuro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e1_7_mediaDesviacion" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432850463_12" label="e3B_Clases" name="e3B_Clases">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_X_DNI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_5_CirculoClase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_9_SustituirCaracter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_X2_fraccionClase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_0_EjemploVariasClases" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_4_Rectangulo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_3_Persona" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3B_8_CadenaIntegrMayus" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432950307_13" label="e4_BuclesAndCondicionales" name="e4_BuclesAndCondicionales">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_5_codigoBarrasVerificar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_25_numeroVocalesCadenaTextoProporcionada" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_11_numero105A0de7en7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_22_c_buclesAnidadosRecursividadCuadradoAsteriscosSecuencial" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_5_horaSiguiente" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_4_diaGenero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_6_radarTramo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_18_todosLosDivisoresDeNumero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_F_factoriales" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_AE_15_divisionABExcepcionesMAL" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_02_ejemploBucles" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_8_solicitaNumero0a99ymuestreEnLetra" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_0_ejemploAlternativaMultiple" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_9_bucleNumeroPositivoHastaIntroducir0" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_14_buclesTablaMultiplicar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_26_palindromo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_2_doyDiaSemana" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_16_cuentaCifras" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_22_buclesAnidados" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_22b_trianguloAsteriscos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_6_numerosImparesPares" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_7_numAsignaMes" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_P_primosRangoGemelosREGULAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_17_bucleGestionFacturas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_12_bucleMediaPositivosMediaNegativosCantidadCeros" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_03_ejemploMaquinaDeEstado" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_2_sumaTresMedidas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_3_notasParaCalificaciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_21_buclesTodosLosTiposNumerosDel1alNumero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_02_ejemplosBucle2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_M_Menus" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_3_entradasCineDescuento" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4_4_dniCuentaCorriente" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_1_multiploDeOtro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_EX2_pruebaClaseProductoDescuento" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_10_numerosIntentosHastaNegativo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764433181126_15" label="eAE2_Autoevaluacion2" name="eAE2_Autoevaluacion2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_10_maquinaExpendedoraDevolucion" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_5_nacimientoFormato00" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_e9_asignacionOperaciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_4_iMC" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_6_polinomio" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_7_AveriguarNumero" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_3_distanciaPiesPulgadas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_2_celsiusFahrenheit" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_8_OperacionesAritmeticas2num" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_e11_ordenadosMenorAmayor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e2_1_ivaDesglose" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764433448635_17" label="e4B_Restricciones" name="e4B_Restricciones">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_P_primosRangoGemelosREGULAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_2_excepciones2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_M_Menus" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_3b_enteroRobustoConEstadosDetectarElPrimerEnteroDeUnaFrase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_1_excepciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_F_factoriales" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_3_enteroRobustoDetectarElPrimerEnteroDeUnaCadena" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
