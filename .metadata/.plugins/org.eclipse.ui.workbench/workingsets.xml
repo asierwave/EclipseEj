@@ -130,5 +130,13 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_F_factoriales" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e4B_3_enteroRobustoDetectarElPrimerEnteroDeUnaCadena" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764875947934_13" label="e5_forEach" name="e5_forEach">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_2_tarifaMovil" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_1_empleadoEmpresaClasificacion" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_3_crearPaquetesEnviarSucursalJ" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_4_gestionEntradas" type="4"/>
+<item elementID="=e5_4b_gestionEntradasConEnum" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e5_5_cuentaBancariaEnum" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
