@@ -45,7 +45,7 @@ public class Main {
 		 for (int f=0; f<matriz.length; f++)
 		 {
 			 for (int c=0; c<matriz[0].length;c++)
-				 System.out.printf("%10.0f", matriz[f][c]); //no quiero decimales y quiero que ocupe 4 espacios a la hora de dibujar "%4.0f"
+				 System.out.printf("%4.0f", matriz[f][c]); //no quiero decimales y quiero que ocupe 4 espacios a la hora de dibujar "%4.0f"
 			 
 			 
 		//imprimimos el resultado de la suma 

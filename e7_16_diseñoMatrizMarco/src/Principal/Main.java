@@ -9,9 +9,10 @@ public class Main {
 		Scanner sc = new Scanner (System.in);
 
 		 
-		 double marco [][];
+		 int marco [][];
 		 
-		 marco = new double [5][15];
+		 //Reservamos los espacio
+		 marco = new int [5][15];
 		 
 		 for (int f=0;f<marco.length;f++) //leemos las filas
 			 
@@ -19,8 +20,9 @@ public class Main {
 			 for (int c=0; c< marco[0].length; c++) //leemos las columnas, es decir, la longitud de la primera fila
 			 { 
 				 if (f==0 || f==marco.length-1) 
+					 // marco [f] [c] = n  >>> indica la celda de la matriz con coordenada fila (f) y columna (c)
 					 marco [f][c] = 1;
-				 
+				 	
 				 else if (c==0 || c==marco[0].length-1) 
 				 marco [f][c] = 1;
 				 

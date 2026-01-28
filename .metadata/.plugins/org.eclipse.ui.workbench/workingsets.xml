@@ -37,6 +37,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA2" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA1" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA2_corregido" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA4" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432728115_10" label="e3_Ternarios" name="e3_Ternarios">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_3_DeterminarSignoNumero" type="4"/>
@@ -151,10 +152,12 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e5_r2_sumaRecursiva" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_TT_TarifaMovil" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_ex_examenPrueba" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e6_ejRecursivoJavier" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1769535610851_15" label="e7_matrices" name="e7_matrices">
-<item elementID="=e7_ej1_ejemploMatrices" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e7_ej1_ejemploMatrices" type="4"/>
 <item elementID="=e7_16_diseñoMatrizMarco" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e7_17_tresEnRaya" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
