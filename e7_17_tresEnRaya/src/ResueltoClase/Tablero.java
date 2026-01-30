@@ -81,7 +81,7 @@ public class Tablero {
 				{
 					tablero [f][c] = ficha;
 					exito=true;
-					hayGanador(f,c,ficha); //verificador de haber ganado
+					ganador = hayGanador(f,c,ficha); //verificador de haber ganado
 
 					return exito;
 				}
@@ -109,7 +109,7 @@ public boolean moverIARandom (char ficha) {
 			tablero [f][c]= ficha;
 			exito = true;
 			
-			hayGanador(f,c,ficha); //verificador de haber ganado
+			ganador = hayGanador(f,c,ficha); //verificador de haber ganado
 		}
 		else
 			exito = false;
