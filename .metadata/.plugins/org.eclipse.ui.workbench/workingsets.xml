@@ -159,9 +159,16 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e7_16_diseñoMatrizMarco" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e7_17_tresEnRaya" type="4"/>
 <item elementID="=e7_14_cochesConductor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e7_ejL_laberinto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e7_22_resonanciaMagnetica" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e7_ej2_clientesCRUD" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1769626556170_16" label="Entornos" name="Entornos">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/k" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1769982045179_19" label="eAE56_Autoevaluacion56" name="eAE56_Autoevaluacion56">
+<item elementID="=eAE56_e1_catalogarLibros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=eAE56_e2_sieteReinas" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
