@@ -118,18 +118,8 @@ public class Tablero {
 				
 			}
 				
-				
-	
-				
-
 			
-		
-
 		return false;
-			
-		
-	
-
 
 	}
 	

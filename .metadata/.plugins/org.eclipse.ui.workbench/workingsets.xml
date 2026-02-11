@@ -170,5 +170,9 @@
 <item elementID="=eAE56_e1_catalogarLibros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=eAE56_e2_sieteReinas" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1770748596762_18" label="e8_ClasesAvanzado" name="e8_ClasesAvanzado">
+<item elementID="=e8_ej1_ejemplo1Grupos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e8_2_CCAAProvincias" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
