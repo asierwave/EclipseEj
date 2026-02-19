@@ -55,6 +55,52 @@ public class Libro {
 		this.ejemplares= sc.nextInt();
 		
 		
+		//Para pillar la fecha bien
+		
+//		System.out.println("Fecha (dd/mm/aaaa)");
+//		String tokens [] = sc.nextLine().split("/"); //Divido la cadena con el carácter split, la expresión regular que divide es /
+//		this.fechaPublicacion = LocalDate.of(
+//				Integer.parseInt(tokens[2]),
+//				Integer.parseInt(tokens[1]),
+//				Integer.parseInt(tokens[0])
+//				);
+				
+	}
+	
+	
+	public void modificarCampos(Scanner sc) {
+		
+		String cadena;
+		int numero;
+		System.out.println("Titulo: "+titulo);
+		cadena = sc.nextLine();
+		if (cadena.length()> 0)
+			this.titulo= cadena;
+		
+		System.out.println("Edicion: "+edicion);
+		cadena = sc.nextLine();
+		if (cadena.length()> 0)
+			this.edicion= Integer.parseInt(cadena);
+		
+		System.out.println("L.Impresión: "+lugarImpresion);
+		cadena = sc.nextLine();
+		if (cadena.length()> 0)
+			this.lugarImpresion= cadena;
+		
+		System.out.println("Fecha: "+fechaPublicacion);
+		cadena = sc.nextLine();
+		if (cadena.length()> 0)
+		{
+			String tokens[] = cadena.split("/");
+			this.fechaPublicacion=LocalDate.of(
+					Integer.parseInt(tokens[2]),
+		Integer.parseInt(tokens[1]),
+		Integer.parseInt(tokens[0]));
+		}
+			
+		//Se puede añadir el resto...
+		
+		
 		
 	}
 
@@ -156,10 +202,6 @@ public class Libro {
 
 		return resultado;
 		}
-	
-	
-	
-	
 	
 	
 }

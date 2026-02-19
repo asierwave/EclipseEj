@@ -103,10 +103,10 @@ public class Laberinto {
 		laberinto [f][c]=' '; //Si no se encuentra camino 
 		return false;
 
-
-
 		
 	}
+	
+	
 	
 	public String toString() {
 		

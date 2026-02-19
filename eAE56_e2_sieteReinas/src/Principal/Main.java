@@ -9,10 +9,15 @@ public class Main {
 		
 		System.out.println(prueba1);
 
-		prueba1.encontrarSolucion();
-
-		System.out.println(prueba1);
 		
+	
+		if(prueba1.encontrarSolucion()) 
+			System.out.println(prueba1);
+		
+		
+		System.out.println("Intentos de relleno: "+prueba1.getnRellenos());
+
+	
 		
 	}
 

@@ -1,5 +1,6 @@
 package Principal;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Catalogo {
@@ -64,10 +65,30 @@ public class Catalogo {
 					
 					nLibros --;	
 					exito = true;
-					break;
+					break; // Si hay varios libros con el mismo ISBN que otro, para borrar los dos
+					//sería poniendo i-- para no saltarnos la posición que hemos movido con bucle j
 				}
 			return exito;
 			
+		}
+		
+		
+		
+		// Dar de baja mas de un elemento por atributo con valor repetido, en este caso autor
+		
+		public int bajaXAutor (String autor) {
+			int totalBorrados= 0;
+			
+			for (int i=0; i<this.nLibros; i++)
+				if (autor.equals(catalogo[i].getAutor()))
+				{
+					for (int j=i; j<this.nLibros-1; j++)
+						catalogo[j] = catalogo[j+1];
+					this.nLibros--;
+					totalBorrados++;
+					i--;
+				}
+			return totalBorrados;
 		}
 		
 		
@@ -100,6 +121,8 @@ public class Catalogo {
 				}
 			return l;
 		}
+		
+		
 		
 		public Libro buscarPorIsbn(Scanner sc)
 		{
@@ -148,7 +171,52 @@ public class Catalogo {
 		}
 
 		
-	}
+		//Método para ordenar mas comprimido con Bubble Sort (MÉTODO NO SE USA)
+		
+		public String listaOrdenada()
+		{
+			
+			Libro seleccion[]= new Libro[this.catalogo.length]; //Creamos nueva lista vector para filtrar
+			int contador = 0;
+			Libro aux;
+			String resultado="";
+			
+			for (int i=0; i<this.nLibros;i++) //recorro el vector original para filtrar 
+					
+					if (catalogo[i].getEjemplares()<=2)
+					{
+						seleccion[contador] = catalogo[i];
+						contador++;
+					}
+			
+		//Bubble Sort
+			for (int i=0; i<contador-1; i++)
+				for (int j=i+1; j<contador; j++) 
+					
+					if (seleccion[i].getTitulo().compareTo(seleccion[j].getTitulo())>0)
+					{
+						aux = seleccion[i];
+						seleccion[i]= seleccion[j];
+						seleccion[j]= aux;
+						
+					}
+					
+					
+					for (int i=0; i<contador; i++)
+						resultado += seleccion[i]+"\n";
+					return resultado;
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	
 
 	
 
