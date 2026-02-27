@@ -36,10 +36,8 @@ public class Libro {
 		
 		System.out.println("Introduzca título del libro");
 		this.titulo = sc.nextLine();
-		
 		System.out.println("Intoduzca la edición del libro (en número)");
 		this.edicion = sc.nextInt();
-		sc.nextLine();
 		System.out.println("Dime el autor del libro: ");
 		this.autor = sc.nextLine();
 		System.out.println("Escribe el ISBN del libro: ");
