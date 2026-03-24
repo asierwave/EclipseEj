@@ -6,6 +6,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e1_sumaNumerosInvertidos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e2_numeroPerfectos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e3_ menuAreaPerimetro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA7_e1_vehiculos" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764264682543_5" label="eAE4_Autoevaluacion4" name="eAE4_Autoevaluacion4">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_X2_decimalToBinarioCustom" type="4"/>
@@ -185,8 +186,23 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e8_ejExtra_barco" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1773081795309_19" label="eC_ejerciciosClaude" name="eC_ejerciciosClaude">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eC_VehiculosClaude" type="4"/>
+<item elementID="=eC_VehiculosClaude" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eC_2_flotaTransporte" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1773251493611_20" label="e9_Colecciones" name="e9_Colecciones">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_eX_listaStrings" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e10_1_hashPersona" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_m2_ejemploMapa2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_12_tiendaCarritoCompraMapa" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_3_empleadoArrayList" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_hashSetListaMedia" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_8_pila1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_m1_mapaejemplo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_p_pila" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_4_listasEnlazadasPaisesCapitales" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_0_Listas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_1_calcularMediaCantidadArrayList[UT8-1]" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_5_carritoCompraArrayList" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
