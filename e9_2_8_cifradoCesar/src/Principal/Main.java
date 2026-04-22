@@ -1,4 +1,4 @@
-package e9_eX_listaStrings;
+package Principal;
 
 public class Main {
 

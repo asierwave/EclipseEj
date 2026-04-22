@@ -7,6 +7,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e2_numeroPerfectos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA3_e3_ menuAreaPerimetro" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PruebaExamenRA7_e1_vehiculos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pruebaexamen_RA7_2" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764264682543_5" label="eAE4_Autoevaluacion4" name="eAE4_Autoevaluacion4">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eAE4_X2_decimalToBinarioCustom" type="4"/>
@@ -40,7 +41,8 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA2_corregido" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA4" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA6" type="4"/>
-<item elementID="=eExam_RA7" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eExam_RA72" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1764432728115_10" label="e3_Ternarios" name="e3_Ternarios">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e3_3_DeterminarSignoNumero" type="4"/>
@@ -186,11 +188,10 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e8_ejExtra_barco" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1773081795309_19" label="eC_ejerciciosClaude" name="eC_ejerciciosClaude">
-<item elementID="=eC_VehiculosClaude" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eC_VehiculosClaude" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eC_2_flotaTransporte" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1773251493611_20" label="e9_Colecciones" name="e9_Colecciones">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_eX_listaStrings" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e10_1_hashPersona" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_m2_ejemploMapa2" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_12_tiendaCarritoCompraMapa" type="4"/>
@@ -203,6 +204,16 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_0_Listas" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_1_calcularMediaCantidadArrayList[UT8-1]" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_5_carritoCompraArrayList" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_10_mapaDiasHorasAsignaturas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_090426_insecto" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1776188064601_21" label="e9_2_Ficheros" name="e9_2_Ficheros">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_ej1_ejemploFicheros" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_1_rutasBasico" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_2_crearArchivoRenombrarArchivo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_ej_fileWriter" type="4"/>
+<item elementID="=e9_2_ej3_Agendacontacto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e9_2_8_cifradoCesar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>

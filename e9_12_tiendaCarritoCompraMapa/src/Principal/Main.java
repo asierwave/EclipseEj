@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Main {
 
+	
+	// Es parcial, el del paquete Joaquín está completo
+	
 	public static void main(String[] args) {
 		// diccionario es sinónimo de mapa en JAVA
 		

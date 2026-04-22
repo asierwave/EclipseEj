@@ -1,10 +1,10 @@
-package Principal;
+package Joaquin;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Joaquin 
+public class Main 
 {
 	public static void main(String[] args) 
 	{
