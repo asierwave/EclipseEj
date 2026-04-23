@@ -214,6 +214,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e9_2_ej_fileWriter" type="4"/>
 <item elementID="=e9_2_ej3_Agendacontacto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=e9_2_8_cifradoCesar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=e9_2_11_procesarFicheroContarLetrasPalabrasCaracteres" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758045347034_2" label="Window Working Set" name="Aggregate for window 1758045347034"/>
 </workingSetManager>
